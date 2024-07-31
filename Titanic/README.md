@@ -5,7 +5,7 @@
 This repository contains my notebook solution for the Titanic machine learning competition on Kaggle. The goal of the competition is to predict the survival of passengers aboard the Titanic based on various features such as age, sex, class, etc.
 
 ## Files
-- `notebook.ipynb`: The Jupyter notebook containing the complete solution, including data preprocessing, feature engineering, model training, and evaluation.
+- `random-forest-cross-validation-submission.ipynb`: The Jupyter notebook containing the complete solution, including data preprocessing, feature engineering, model training, and evaluation.
 - `README.txt`: This file, providing an overview of the project and instructions for running the code.
 
 ## Requirements
