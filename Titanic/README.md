@@ -25,13 +25,13 @@ pip install numpy pandas seaborn plotly matplotlib scikit-learn
 ## Usage
 1. Clone the repository:
 ```sh
-git clone https://github.com/yourusername/titanic-competition.git
-cd titanic-competition
+git clone https://github.com/cabradna/kaggle_challenges
+cd Titanic
 ```
 
 2. Open the Jupyter notebook:
 ```sh
-jupyter notebook notebook.ipynb
+jupyter notebook random-forest-cross-validation-submission.ipynb
 ```
 
 3. Run the cells in the notebook to execute the code step-by-step.
@@ -47,7 +47,4 @@ jupyter notebook notebook.ipynb
 ## Acknowledgements
 - Kaggle for providing the Titanic dataset and hosting the competition.
 - The open-source community for the tools and libraries used in this project.
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
 ```
