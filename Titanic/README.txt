@@ -1,3 +1,4 @@
+```txt
 # Titanic Machine Learning Kaggle Competition
 
 ## Overview
@@ -9,15 +10,16 @@ This repository contains my notebook solution for the Titanic machine learning c
 
 ## Requirements
 To run the notebook, you will need the following Python packages:
-- pandas
 - numpy
-- scikit-learn
-- matplotlib
+- pandas
 - seaborn
+- plotly
+- matplotlib
+- scikit-learn
 
 You can install the required packages using pip:
 ```sh
-pip install pandas numpy scikit-learn matplotlib seaborn
+pip install numpy pandas seaborn plotly matplotlib scikit-learn
 ```
 
 ## Usage
@@ -35,15 +37,12 @@ jupyter notebook notebook.ipynb
 3. Run the cells in the notebook to execute the code step-by-step.
 
 ## Solution Outline
-1. **Data Loading**: Load the Titanic dataset and perform initial exploration.
-2. **Data Preprocessing**: Handle missing values, encode categorical variables, and scale numerical features.
-3. **Feature Engineering**: Create new features to improve model performance.
-4. **Model Training**: Train a RandomForestClassifier using GridSearchCV to find the best hyperparameters.
-5. **Model Evaluation**: Evaluate the model's performance using cross-validation and test data.
-6. **Prediction**: Generate predictions for the test set and save the results to a CSV file.
-
-## Results
-The final model achieved an accuracy of XX% on the test set. The predictions are saved in `jul24cv_sub.csv`.
+1. **Overview**: Introduction to the project and its objectives.
+2. **Exploring Variables**: Visualize and analyze the data using heat maps and histograms.
+3. **Data Processing**: Perform data preprocessing, including a stratified split of the dataset.
+4. **Modeling**: Train models using cross-validation and grid search on the test set.
+5. **Building Final Model**: Conduct cross-validation and grid search on the entire dataset to build the final model.
+6. **Final Prediction**: Generate final predictions and save the results to a CSV file.
 
 ## Acknowledgements
 - Kaggle for providing the Titanic dataset and hosting the competition.
@@ -51,7 +50,4 @@ The final model achieved an accuracy of XX% on the test set. The predictions are
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
-
 ```
-
-Feel free to customize this `README.txt` further to suit your needs! Let me know if you need any additional information or adjustments.
